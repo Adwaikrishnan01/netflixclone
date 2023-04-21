@@ -1,0 +1,37 @@
+.posters{
+    display: flex;
+    overflow-x: scroll;
+   cursor:pointer;
+    padding:20px;
+   margin-left:30px;
+   overflow-y: hidden;
+  
+}
+.posters::-webkit-scrollbar{
+    display:none;
+}
+
+.poster{
+    height:150px;
+    width:300px;
+    margin-right: 5px;
+    border-radius: 3px;
+
+}
+.smallposter{
+    height: 125px;
+    width:275px;
+    margin-right: 5px;
+    border-radius: 2px;
+ 
+}
+.posters img:hover{
+    transform: scale(1.2);
+}
+.row h2{
+    font-family: roboto;
+    font-weight: 500;
+    margin: 3px 20px;
+    font-size: 25px;
+    color:white;
+}
